@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <signupForm />
+  <div class="content">
+    <signup-form />
   </div>
 </template>
 
@@ -16,5 +16,10 @@ export default {
 </script>
 
 <style>
-
+.content {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
 </style>
